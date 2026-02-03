@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NEON RUNNER: A Spiritual Successor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <canvas id="game"></canvas>
+
+    <div id="hud">
+      <div class="hud-left">
+        <div class="hud-block">
+          <div class="label">Time</div>
+          <div id="time" class="value">60.00</div>
+        </div>
+        <div class="hud-block">
+          <div class="label">Gold</div>
+          <div id="gold" class="value">0 / 0</div>
+        </div>
+        <div class="hud-block">
+          <div class="label">Level</div>
+          <div id="level" class="value">1</div>
+        </div>
+        <div class="hud-block">
+          <div class="label">Lives</div>
+          <div id="lives" class="value">3</div>
+        </div>
+        <div class="hud-block">
+          <div class="label">Shield</div>
+          <div id="shield" class="value">--</div>
+        </div>
+        <div class="hud-block">
+          <div class="label">Slow</div>
+          <div id="slow" class="value">--</div>
+        </div>
+        <div class="hud-block">
+          <div class="label">Sword</div>
+          <div id="sword" class="value">--</div>
+        </div>
+      </div>
+      <div class="hud-right">
+        <div id="status" class="status"></div>
+      </div>
+    </div>
+
+    <div id="overlay" class="show">
+      <div id="menu-title" class="title">Neon Runner</div>
+      <div id="menu-subtitle" class="subtitle">A modern tribute to the legendary N</div>
+
+      <div class="menu-actions">
+        <button id="start">Start Run</button>
+      </div>
+
+      <div class="menu-panel">
+        <div class="panel-title">Select Level</div>
+        <div id="level-grid" class="level-grid"></div>
+      </div>
+
+      <div class="instructions">
+        <div><span class="key">A/D</span> Move</div>
+        <div><span class="key">W/Space</span> Jump</div>
+        <div><span class="key">Shift</span> Dash</div>
+        <div><span class="key">Esc</span> Pause</div>
+        <div><span class="key">M</span> Menu</div>
+        <div><span class="key">R</span> Restart</div>
+        <div><span class="key">N/P</span> Next/Prev</div>
+      </div>
+    </div>
+
+    <div id="vignette"></div>
+
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
