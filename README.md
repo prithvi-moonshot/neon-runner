@@ -3,7 +3,10 @@
 A modern, web-native spiritual successor to the classic Flash game **N**. This version keeps the tight, expressive platforming and adds a dash mechanic, reactive hazards, glow-heavy visuals, and punchy synth SFX.
 
 ## Run
-From this folder, start a local server:
+
+Click the link: https://prithvi-moonshot.github.io/neon-runner/
+
+Or to run locally,from this folder, start a local server:
 
 ```bash
 python3 -m http.server 8000
